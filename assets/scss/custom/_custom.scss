@@ -1,0 +1,37 @@
+.btn-search-custom {
+  background-color: map-get($neutral-colors, 200);
+}
+.btn-member-custom {
+  border: 1px solid map-get($primary-colors, 200);
+  color: map-get($primary-colors, 500);
+  line-height: 1.5;
+  letter-spacing: 0.5%;
+}
+.footer {
+  background-color: map-get($neutral-colors, 900);
+  color: map-get($neutral-colors, 0);
+}
+.footer-hr {
+  border-bottom: 1px solid map-get($neutral-colors, 600);
+}
+.footer-p {
+  color: map-get($neutral-colors, 500);
+}
+main {
+  background-color: map-get($neutral-colors, 100);
+  .container .row-custom {
+    padding-top: 1.5rem;
+    @media (min-width: 768px) {
+      padding-top: 3rem;
+    }
+  }
+}
+.box-custom {
+  background-color: map-get($neutral-colors, 0);
+  border: 1px solid map-get($neutral-colors, 300);
+  border-radius: 1px;
+  margin-bottom: 1rem;
+  @media (min-width: 768px) {
+    margin-bottom: 1.5rem;
+  }
+}

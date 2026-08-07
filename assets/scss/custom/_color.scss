@@ -1,0 +1,60 @@
+// 基礎色盤 Map
+$neutral-colors: (
+  0: #ffffff,
+  100: #f8f9fa,
+  200: #e9ecef,
+  300: #dee2e6,
+  400: #ced4da,
+  500: #adb5bd,
+  600: #6c757d,
+  700: #495057,
+  800: #343a40,
+  900: #212529,
+);
+
+$primary-colors: (
+  100: #cfe2ff,
+  200: #9ec5fe,
+  300: #6ea8fe,
+  400: #3d8bfd,
+  500: #0d6efd,
+  600: #0a58ca,
+  700: #084298,
+  800: #052c65,
+  900: #031633,
+);
+
+// Bootstrap 5 主題色覆寫
+$primary: map-get($primary-colors, 500);
+$danger: #dc3545;
+$success: #198754;
+$warning: #ffc107;
+$info: #0dcaf0;
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger,
+  "success": $success,
+  "warning": $warning,
+  "info": $info,
+);
+
+// Neutral (產生 .bg-n0 ~ .bg-n900 及 .cr-n0 ~ .cr-n900)
+@each $key, $value in $neutral-colors {
+  .bg-n#{$key} {
+    background-color: $value !important;
+  }
+  .cr-n#{$key} {
+    color: $value !important;
+  }
+}
+
+// Primary (產生 .bg-p100 ~ .bg-p900 及 .cr-p100 ~ .cr-p900)
+@each $key, $value in $primary-colors {
+  .bg-p#{$key} {
+    background-color: $value !important;
+  }
+  .cr-p#{$key} {
+    color: $value !important;
+  }
+}
