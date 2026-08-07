@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <script type="module" crossorigin src="/2026wd-week5/assets/index-l2QA6DTP.js"></script>
+    <link rel="stylesheet" crossorigin href="/2026wd-week5/assets/index-BdlMWa6l.css">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container align-items-center">
+      <!-- 1. Logo -->
+      <a class="navbar-brand me-md-5" href="#">
+        <img
+          src="/2026wd-week5/assets/logo-BVlqBbcd.png"
+          alt="AI ToolVerse Logo"
+          width="152"
+          height="24"
+          class="d-inline-block align-text-top"
+        />
+      </a>
+
+      <!-- 2. 漢堡選單按鈕（手機端唯一顯示的開關） -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- 3. 主折疊區塊：包含選單、搜尋列與會員按鈕 -->
+      <div
+        class="collapse navbar-collapse justify-content-between align-items-center"
+        id="navbarSupportedContent"
+      >
+        <ul
+          class="navbar-nav align-items-start align-items-md-center gap-2 gap-md-0 my-3 my-md-0"
+        >
+          <li class="nav-item">
+            <button
+              class="btn btn-outline-dark border-none text-nowrap d-inline-flex align-items-center gap-1"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              type="button"
+              aria-controls="offcanvasExample"
+            >
+              探索AI工具
+              <i class="bi bi-chevron-down"></i>
+            </button>
+          </li>
+
+          <!-- 搜尋列（手機端展開時呈現滿版 w-100，桌機端為固定寬度） -->
+          <li class="nav-item ms-md-4 my-2 my-md-0 w-100 w-md-auto">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="輸入工具名稱、功能或關鍵字"
+                aria-label="Search"
+                style="max-width: 100%; width: 257px"
+              />
+              <button class="btn btn-search-custom" type="button">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </li>
+        </ul>
+
+        <!-- 會員中心按鈕（手機端滿寬 w-100，桌面版自動隨內容縮放 w-md-auto） -->
+        <form class="my-2 my-md-0 d-none d-md-inline-flex">
+          <button class="btn btn-member-custom rounded-pill" type="button">
+            <i class="bi bi-person me-2"></i>
+            會員中心
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Offcanvas 側邊欄 -->
+  <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel"
+  >
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title" id="offcanvasExampleLabel">探索AI工具</h3>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column justify-content-between">
+      <ul class="list-unstyled d-flex flex-column gap-2">
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            內容生成
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            視覺設計
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            影像製作
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            程式開發
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            教育與學習
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            資料分析
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            生產力工具
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            class="btn btn-outline-dark border-none w-100 text-start"
+          >
+            音樂創作
+          </button>
+        </li>
+      </ul>
+      <button type="button" class="btn btn-primary rounded-pill w-100">
+        登入/註冊
+      </button>
+    </div>
+  </div>
+</header>
+    <main>
+      <div class="container">
+        <div class="row row-custom">
+          <div class="col-md-3">
+            <div class="box-custom pt-5 pt-md-6">
+              <div class="d-flex d-md-block text-md-center">
+                <div class="avatar mb-md-4 mx-4">
+                  <img
+                    src="/2026wd-week5/assets/avatar-CV3pqSuS.png"
+                    alt="avatar"
+                    height="64"
+                    width="64"
+                  />
+                </div>
+                <div class="content mb-5 mb-md-6">
+                  <h2 class="h4 cr-n900">Josh</h2>
+                  <p class="fs-body-sm cr-n600">helloworld@gmail.com</p>
+                  <p class="badge bg-success fs-body-sm">已驗證</p>
+                </div>
+              </div>
+              <!-- 下方選單區塊 (List Group) -->
+              <div class="list-group list-group-flush border-top-0">
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action active border-0 d-flex align-items-center py-3 px-4"
+                >
+                  <i class="bi bi-person fs-5 me-3"></i>
+                  <span class="fs-body-md">個人資料</span>
+                </a>
+
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action border-top d-flex align-items-center py-3 px-4 text-dark"
+                >
+                  <i class="bi bi-laptop fs-5 me-3"></i>
+                  <span class="fs-body-md">我上架的 AI 工具</span>
+                </a>
+
+                <a
+                  href="#"
+                  class="list-group-item list-group-item-action border-top d-flex align-items-center py-3 px-4 text-dark"
+                >
+                  <i class="bi bi-list-task fs-5 me-3"></i>
+                  <span class="fs-body-md">我訂閱的 AI 工具</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="box-custom p-6">
+              <h2 class="h4 cr-n900 fw-bold mb-md-5">基本資料</h2>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-4 mb-md-5">
+                    <label for="fullname" class="form-label">
+                      姓名
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fullname"
+                      value="Josh"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mb-4 mb-md-5">
+                    <label for="nickname" class="form-label">暱稱</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nickname"
+                      placeholder="請輸入你的暱稱"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-4 mb-md-5">
+                    <label for="pickdate" class="form-label">
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="請選擇日期"
+                      onfocus="this.type = 'date'"
+                      onblur="if (!this.value) this.type = 'text';"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-4 mb-md-5">
+                    <label for="email" class="form-label">
+                      聯絡信箱
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      value="helloworld@gmail.com"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-4 mb-md-5">
+                    <label for="tel" class="form-label">
+                      連絡電話
+                      <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="tel"
+                      value="0912345678"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box-custom p-6">
+              <div class="mb-4 mb-md-5">
+                <h2 class="h4 cr-n900 fw-bold">通知設定</h2>
+                <p class="fs-body-sm cr-n600">
+                  通知將寄送到 helloworld@gmail.com
+                  ，如需變更，請至頁面上方的基本資料修改聯絡信箱
+                </p>
+              </div>
+
+              <div class="mb-4 mb-md-5">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="tool-eval-feedback"
+                />
+                <label for="tool-eval-feedback" class="form-label">
+                  工具評價與回饋
+                </label>
+                <p class="fs-body-sm cr-n600">即時掌握使用者留下的評價和回饋</p>
+              </div>
+
+              <div class="mb-4 mb-md-5">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="ai-trend-tools"
+                />
+                <label for="ai-trend-tools" class="form-label">
+                  AI 趨勢與最新工具
+                </label>
+                <p class="fs-body-sm cr-n600">推薦適合你的新 AI 工具</p>
+              </div>
+
+              <div class="mb-4 mb-md-5">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="tool-update"
+                />
+                <label for="tool-update" class="form-label">
+                  工具功能更新
+                </label>
+                <p class="fs-body-sm cr-n600">
+                  當你訂閱的 AI 工具有新功能或重要更新時，我們會寄信通知你
+                </p>
+              </div>
+
+              <div class="mb-4 mb-md-5">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="event-offer-info"
+                />
+                <label for="event-offer-info" class="form-label">
+                  活動與優惠資訊
+                </label>
+                <p class="fs-body-sm cr-n600">把握平台限時優惠與活動資訊</p>
+              </div>
+            </div>
+            <button
+              class="btn btn-primary mt-4 mb-5 mt-md-5 mb-md-6 d-block ms-auto rounded-pill px-5 py-2"
+              type="submit"
+            >
+              儲存
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer" style="padding-top: 64px">
+  <div class="container">
+    <div class="d-block d-md-flex justify-content-between pb-5 footer-hr">
+      <div class="brand mb-5 mb-md-0">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/2026wd-week5/assets/logo-BVlqBbcd.png"
+            alt="AI ToolVerse Logo"
+            width="152"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+      </div>
+      <div class="subscrption">
+        <p>訂閱我們，掌握最新 AI 工具與趨勢</p>
+        <div class="input-group">
+          <input
+            type="email"
+            class="form-control px-4 py-2"
+            width="calc(360px + 16px + 16px)"
+            placeholder="helloworld@gmail.com"
+            aria-label="email"
+            aria-describedby="sucscribe-button"
+          />
+          <button
+            class="btn btn-primary px-3"
+            type="button"
+            id="sucscribe-button"
+          >
+            訂閱
+          </button>
+        </div>
+      </div>
+    </div>
+    <p class="fs-body-sm mt-5 mb-1 text-center footer-p">
+      Copyright ©2026 AI ToolVerse
+    </p>
+    <p class="fs-body-sm text-center footer-p" style="padding-bottom: 64px">
+      All Rights Reserved.
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
