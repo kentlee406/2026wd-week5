@@ -64,12 +64,14 @@
         </ul>
 
         <!-- 會員中心按鈕（手機端滿寬 w-100，桌面版自動隨內容縮放 w-md-auto） -->
-        <form class="my-2 my-md-0 d-none d-md-inline-flex">
-          <button class="btn btn-member-custom rounded-pill" type="button">
-            <i class="bi bi-person me-2"></i>
-            會員中心
-          </button>
-        </form>
+        <!-- 會員中心按鈕不需用 form 表單標籤包覆 -->
+        <button
+          class="btn btn-member-custom rounded-pill my-2 my-md-0 d-none d-md-inline-flex"
+          type="button"
+        >
+          <i class="bi bi-person me-2"></i>
+          會員中心
+        </button>
       </div>
     </div>
   </nav>
